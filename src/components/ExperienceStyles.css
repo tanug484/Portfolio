@@ -28,13 +28,14 @@ a{
    color: #fff; 
    transition: all 400 ms;
 }
-@media screen and (max-width:1024px) {
+/* @media screen and(max-width:1024px) {
     .container{
         width:86%
     }
-section{
-margin-top:6rem;
-    }
+        section{
+        margin-top:6rem;
+        }
+      
 }
 @media screen and (max-width:600px) {
     .container{
@@ -43,7 +44,7 @@ margin-top:6rem;
 section{
 margin-bottom:2rem;
     }
-}
+} */
 .icons
 {
     color: #fff;
@@ -89,4 +90,25 @@ margin-bottom:2rem;
 #experience
 {
     margin-bottom:20px;
+}
+
+
+@media screen and (max-width:1024px)
+{
+    .experience__container{
+        max-width:90%;
+        margin:auto;
+        grid-template-columns: 1fr;
+        grid-row-gap: 2%;
+     
+    }
+    .experience__container > div {
+            width:80%;
+            padding:2rem;
+            margin:0 auto;
+    };
+    .experience__content{
+        padding:1rem;
+    }
+
 }
