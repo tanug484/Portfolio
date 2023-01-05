@@ -13,13 +13,12 @@ const WorkCard = (props) => {
           <a href={props.view} className="btn">
             View
           </a>
-          <a href={props.view} className="btn">
+          <a href={props.source} className="btn">
             Source
           </a>
         </div>
       </div>
     </div>
-    
   );
 };
 

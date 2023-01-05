@@ -15,8 +15,9 @@ const Work = () => {
                 key={index}
                 imgsrc={val.imgsrc}
                 title={val.title}
-                tetx={val.text}
+                text={val.text}
                 view={val.view}
+                source={val.source}
               ></WorkCard>
             );
           })}
