@@ -13,6 +13,7 @@
 {
     background-color: rgba(0,0,0,0.85);
     transition: 0.5s;
+    top:0px;
 }
 .nav-menu
 {
@@ -61,4 +62,10 @@
 {
     display: initial;
 }
+}
+.me{
+    height:30px;
+    width:30px;
+    margin-bottom:10px;
+    vertical-align: center;
 }

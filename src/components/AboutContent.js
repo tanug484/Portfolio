@@ -7,15 +7,18 @@ import mapty from "./../assets/map.PNG";
 const AboutContent = () => {
   return (
     <>
+       <h1 className="heading">About me</h1>
       <div className="about">
+       
         <div className="left">
           <h1>Who Am I?</h1>
           <p>
-            With 3+ years of software development experience, I have contributed
-            to projects small and large,demonstrating my professionalism with
-            reliability. Being a developer means understanding all the
-            requirements of a project and finding the best way to implement it
-            to a high-quality standard.
+          Embarking on a 4+ years journey in software development, I've woven my passion into projects of every scale. I bring not just professionalism but a commitment to reliable code, ensuring each line resonates with excellence.
+
+          As a developer, I see projects as opportunities for innovation. Beyond meeting requirements, I shape digital landscapes, navigating complexities for high-quality results.
+
+          In the evolving tech world, I'm looking for an organization that values skills and pushes for growth. Excited about daily challenges that fuel continuous development.
+
           </p>
           <Link to="/contact">
             <button className="btn">Contact</button>

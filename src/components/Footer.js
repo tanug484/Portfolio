@@ -3,8 +3,8 @@ import React from "react";
 import { FaMailBulk, FaPhone, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
-import { FiTwitter } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { SiLeetcode } from "react-icons/si";
+
 const Footer = () => {
   return (
     <>
@@ -43,7 +43,7 @@ const Footer = () => {
                 ></AiFillGithub>
               </a>
 
-              <a href="https://www.linkedin.com/in/tanu-goel-a6982b168/">
+              <a href="https://www.linkedin.com/in/tanugoel20/">
                 <FaLinkedin
                   size={30}
                   style={{ color: "#fff", marginRight: "1rem" }}
@@ -55,6 +55,12 @@ const Footer = () => {
                   size={30}
                   style={{ color: "#fff", marginRight: "1rem" }}
                 ></BsInstagram>
+              </a>
+              <a href="https://leetcode.com/im_goel2010/">
+                <SiLeetcode
+                  size={30}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                ></SiLeetcode>
               </a>
             </div>
           </div>

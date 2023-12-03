@@ -6,7 +6,10 @@
 h1,h2,h3,h4,h5{
     font-weight:500;
     color:#fff;
-       font-size:20px;
+    font-size:20px;
+}
+.experience h5{
+    text-align: center;
 }
 section{
     margin-top:3rem;
@@ -56,12 +59,14 @@ margin-bottom:2rem;
     display: grid;
     grid-template-columns:repeat(2,1fr);
     gap:5;
+    margin-left:13%;
+    margin-top:5px;
 }
 .experience__container>div{
    padding:2.4rem 5rem;
    border-radius: 2rem;
    border:1px solid transparent;
-    background: rgb(248,217,15);
+    background: #F17533 ;
     width:80%;
     transition: all 400ms;
 
@@ -111,4 +116,38 @@ margin-bottom:2rem;
         padding:1rem;
     }
 
+}
+
+/* Experience.css */
+
+.experience-section {
+  margin-top: 50px;
+}
+
+.experience-heading {
+  text-align: center;
+  font-size: 20px;
+  color: #fff; /* Blue color, you can change it */
+}
+
+.experience-item {
+  margin: 40px;
+  padding: 20px;
+  background-color: #F17533;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-title {
+  color: #fff; /* Dark text color */
+  font-size: 1.5rem;
+}
+
+.company-date {
+  /* font-style: italic; */
+  color: #fff;
+}
+
+.description {
+  color: #fff;
 }
